@@ -1,0 +1,599 @@
+{
+    "title": "Flipkart Affiliate API Directory",
+    "description": "This directory contains information about all the affiliate API's and their versions",
+    "apiGroups": {
+        "affiliate": {
+            "name": "affiliate",
+            "apiListings": {
+                "bags_wallets_belts": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "bags_wallets_belts",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:reh.json?expiresAt=1412319689313&sig=ce1ff9230171140359905d9629a6ebe8",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "bags_wallets_belts"
+                },
+                "fragrances": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "fragrances",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:t06-r3o.json?expiresAt=1412319689313&sig=1c49c3b8728648474f7192c14131c96b",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "fragrances"
+                },
+                "tv_video_accessories": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "tv_video_accessories",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-ul6.json?expiresAt=1412319689314&sig=92c6adc6f8fb8e9b5a2aa1467e0ddd41",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tv_video_accessories"
+                },
+                "camera_accessories": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "camera_accessories",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:jek-6l2.json?expiresAt=1412319689313&sig=5ea65bcc10acaad0c4bc6878c27b9636",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "camera_accessories"
+                },
+                "sports_fitness": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "sports_fitness",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:dep.json?expiresAt=1412319689314&sig=158672bc1558f872c3451e42e3d4173f",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "sports_fitness"
+                },
+                "mobile_accessories": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "mobile_accessories",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:tyy-4mr.json?expiresAt=1412319689313&sig=c1155cdcc47252d9279426e2e73f99a8",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mobile_accessories"
+                },
+                "software": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "software",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-5hp.json?expiresAt=1412319689314&sig=3157624dc034644c29eed0474cdeee7a",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "software"
+                },
+                "jewellery": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "jewellery",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:mcr.json?expiresAt=1412319689314&sig=f7deedcd91806c832447dea7102a3ac5",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "jewellery"
+                },
+                "televisions": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "televisions",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:ckf-czl.json?expiresAt=1412319689314&sig=7a6550a7dd9251ab43e72564b3e3b7ec",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "televisions"
+                },
+                "computer_storage": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "computer_storage",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-jdy.json?expiresAt=1412319689313&sig=650cfc2e3aa719ef47d9ddb5a4c22b51",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_storage"
+                },
+                "mens_clothing": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "mens_clothing",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:2oq-s9b.json?expiresAt=1412319689314&sig=2652b019069bf10b1c3f30dcdef9d352",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mens_clothing"
+                },
+                "stationery_office_supplies": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "stationery_office_supplies",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:dgv.json?expiresAt=1412319689314&sig=005f5df7b679ff56b79601b6d424aaf6",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "stationery_office_supplies"
+                },
+                "video_players": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "video_players",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-xdz.json?expiresAt=1412319689314&sig=19089aed3987f1a13ae17140522ec8c4",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "video_players"
+                },
+                "household": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "household",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:r4l.json?expiresAt=1412319689314&sig=a8b31f3870b64b1dea4e21bc1ae7a658",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "household"
+                },
+                "tablets": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "tablets",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:tyy-hry.json?expiresAt=1412319689314&sig=29ffb861f34f33a69925b0b5198b0ca9",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tablets"
+                },
+                "kids_footwear": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "kids_footwear",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:osp-mba.json?expiresAt=1412319689314&sig=da8005cab3266730a9272683cd768a7c",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kids_footwear"
+                },
+                "sunglasses": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "sunglasses",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:26x.json?expiresAt=1412319689313&sig=6991b16c3ae91edbc28aa6e3776f93dd",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "sunglasses"
+                },
+                "womens_clothing": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "womens_clothing",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:2oq-c1r.json?expiresAt=1412319689314&sig=5c3fff2d8288d1737ababc0b8789ec66",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "womens_clothing"
+                },
+                "kids_clothing": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "kids_clothing",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:2oq-mpf.json?expiresAt=1412319689314&sig=694f6b132beb9600982f3c165cf862c8",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kids_clothing"
+                },
+                "womens_footwear": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "womens_footwear",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:osp-iko.json?expiresAt=1412319689314&sig=a68679cdc3cbe7d4fa0874fe6fb1b3e7",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "womens_footwear"
+                },
+                "air_coolers": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "air_coolers",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:j9e-abm-52j.json?expiresAt=1412319689314&sig=59f922a004772faa72cdb4df163b362d",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "air_coolers"
+                },
+                "music_movies_posters": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "music_movies_posters",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:4kt.json?expiresAt=1412319689314&sig=e064c693238f6eabbe76bf6654d75141",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "music_movies_posters"
+                },
+                "desktops": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "desktops",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-igk.json?expiresAt=1412319689313&sig=9567329536a79a4062889d5234ab1d2c",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "desktops"
+                },
+                "gaming": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "gaming",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:4rr.json?expiresAt=1412319689314&sig=1626b641aea1228f39e665cf08d44882",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "gaming"
+                },
+                "home_decor": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "home_decor",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:1m7.json?expiresAt=1412319689314&sig=39e43d925c7e2be045ca83182c08b646",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_decor"
+                },
+                "microwave_ovens": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "microwave_ovens",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:j9e-m38-o49.json?expiresAt=1412319689314&sig=433f7fb0742ac7135ef95a3ea8b2c1a0",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "microwave_ovens"
+                },
+                "laptop_accessories": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "laptop_accessories",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-ai3.json?expiresAt=1412319689313&sig=db8a9b99e2dd201de2a0a75a9fc78154",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "laptop_accessories"
+                },
+                "tablet_accessories": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "tablet_accessories",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:tyy-jgu.json?expiresAt=1412319689314&sig=301876085cecdfac11d088ff23d25ebb",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "tablet_accessories"
+                },
+                "mobiles": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "mobiles",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:tyy-4io.json?expiresAt=1412319689313&sig=16ff044e891f566f344301483492bf24",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mobiles"
+                },
+                "grooming_beauty_wellness": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "grooming_beauty_wellness",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:t06.json?expiresAt=1412319689313&sig=571257796d0402a7ed9119aadfd5dc8e",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "grooming_beauty_wellness"
+                },
+                "kitchen_appliances": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "kitchen_appliances",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:j9e-m38.json?expiresAt=1412319689314&sig=08e687937be3c766714a5380a1939238",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "kitchen_appliances"
+                },
+                "watches": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "watches",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:r18.json?expiresAt=1412319689313&sig=b01740c56720e6f382cb6d56dbc7ddcc",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "watches"
+                },
+                "cameras": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "cameras",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:jek-p31.json?expiresAt=1412319689313&sig=3b91deaee755a242691f12eec4ca8348",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "cameras"
+                },
+                "home_improvement_tools": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "home_improvement_tools",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:amz.json?expiresAt=1412319689314&sig=560a91c8866b3a9821479e0b7549f7c7",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_improvement_tools"
+                },
+                "landline_phones": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "landline_phones",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:tyy-n0e.json?expiresAt=1412319689314&sig=a9d382825d9fe8176a78cced21de35c5",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "landline_phones"
+                },
+                "network_components": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "network_components",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-70k.json?expiresAt=1412319689313&sig=65dbf2430408a2b105f49ebf9bdfff09",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "network_components"
+                },
+                "laptops": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "laptops",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-b5g.json?expiresAt=1412319689313&sig=8c905e5e43bc7b24f314db6b95dd593b",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "laptops"
+                },
+                "luggage_travel": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "luggage_travel",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:reh-plk.json?expiresAt=1412319689314&sig=c8b05fb135a766fecf8a1b25b72e4747",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "luggage_travel"
+                },
+                "home_entertainment": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "home_entertainment",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:ckf.json?expiresAt=1412319689314&sig=10f3bed02f7b192d3ed7954a615c6791",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_entertainment"
+                },
+                "air_conditioners": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "air_conditioners",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:j9e-abm-c54.json?expiresAt=1412319689314&sig=c4b44fe1a5eeb524bb060424c42b9be9",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "air_conditioners"
+                },
+                "computer_peripherals": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "computer_peripherals",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-tia.json?expiresAt=1412319689313&sig=aadaf4e21dc40dfe89787dfdfcb2f0d5",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_peripherals"
+                },
+                "audio_players": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "audio_players",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-ord.json?expiresAt=1412319689314&sig=69551166f46d3fc6054b922d55790c44",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "audio_players"
+                },
+                "home_furnishing": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "home_furnishing",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:vdm.json?expiresAt=1412319689314&sig=09dda45d89de68b3b6eef14bf945a132",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_furnishing"
+                },
+                "baby_care": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "baby_care",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:kyh.json?expiresAt=1412319689313&sig=b36beade436c87da6b113e1a9baf0ffd",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "baby_care"
+                },
+                "e_learning": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "e_learning",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:xfw.json?expiresAt=1412319689314&sig=e1960dad6ff9aff90b7b62ec2623c66a",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "e_learning"
+                },
+                "toys": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "toys",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:mgl.json?expiresAt=1412319689313&sig=3dd7aa8336b85f3bcb99a95ea642152d",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "toys"
+                },
+                "home_appliances": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "home_appliances",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:j9e-abm.json?expiresAt=1412319689314&sig=950000373ab19cd9b11a7cff28424edf",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "home_appliances"
+                },
+                "computer_components": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "computer_components",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:6bo-g0i.json?expiresAt=1412319689313&sig=ec5806b8a0c34de08322d8d8d36e8847",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "computer_components"
+                },
+                "mens_footwear": {
+                    "availableVariants": {
+                        "v0.1.0": {
+                            "resourceName": "mens_footwear",
+                            "get": "https://affiliate-api.flipkart.net/affiliate/feeds/chetankan/category/v1:osp-cil.json?expiresAt=1412319689314&sig=38fd33e1b35ba125c2dbcff3756d3502",
+                            "post": null,
+                            "put": null,
+                            "delete": null
+                        }
+                    },
+                    "apiName": "mens_footwear"
+                }
+            }
+        }
+    }
+}

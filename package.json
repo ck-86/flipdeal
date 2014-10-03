@@ -1,0 +1,16 @@
+{
+  "name": "flipdeal",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CK <ck86@gmx.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.9.5",
+    "node-rest-client": "^1.0.3",
+    "request": "^2.44.0"
+  }
+}
