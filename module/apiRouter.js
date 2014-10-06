@@ -45,6 +45,17 @@ apiRouter.route('/:name')
 
 	});
 
+apiRouter.route('/product/:category_name/:page_number')
+	.get( apicache('1 hours'), function (req, res) {
+		var page_number = req.params.page_number;
+		var args = {};
+
+		client.get('http://localhost:8086/remote/api/product/jewellery/'+page_number, args, 
+			function (data, response){
+				data = JSON.parse(data);
+				res.json(data);
+			});
+	});
 
 
 
