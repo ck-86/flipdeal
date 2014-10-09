@@ -1,14 +1,19 @@
 var express = require('express');
+var compression = require('compression')
 var app 	= express();
-
-var Client = require('node-rest-client').Client;
+var Client 	= require('node-rest-client').Client;
 client = new Client();
 
-var apiRouter	 = require('./module/apiRouter.js');
-var remoteRouter = require('./module/remoteRouter.js');
+var host = require('./module/hostConfig.js');
 
-var port = process.env.PORT || 8086;
+var apiRouter = require('./module/apiRouter.js');
 
+/**************************************
+* Compress (Gzip)
+***************************************
+* zip every response
+*/
+app.use(compression());
 
 /**************************************
 * Static Folder
@@ -29,7 +34,7 @@ app.get('/app', function (req,res) {
 app.get('/all', function (req, res) {
 
 	var args = {}; //No arguments for client
-	client.get('http://localhost:8086/api/v1/directory', args,
+	client.get(host.url + 'api/v1/directory', args,
 		function (data, response) {
 			data = JSON.parse(data);
 
@@ -45,21 +50,15 @@ app.get('/all', function (req, res) {
 	//res.send("Show all categories...");
 });
 
-/**************************************
-* API Route
-***************************************
-* This has to be cached for 1 Min
-*/
-app.use('/api/v1', apiRouter);
 
 /**************************************
 * Test Remote API Route
 ***************************************
 *
 */
-app.use('/remote/api', remoteRouter);
+app.use('/api/v1', apiRouter);
 
 
-app.listen(port, function(){
-	console.log('Server Started On Port : ', port );
+app.listen(host.port, function(){
+	console.log('Server Started On Port : ', host.port );
 });

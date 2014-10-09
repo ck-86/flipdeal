@@ -1,0 +1,175 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'compression', '-g' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.31
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'compression', null ]
+6 verbose cache add spec="compression" args=["compression",null]
+7 verbose parsed spec { raw: 'compression',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'compression',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose parsed spec { raw: 'compression',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'compression',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose addNamed [ 'compression', '*' ]
+10 verbose addNamed [ null, '*' ]
+11 silly lockFile 58c71e60-compression compression@*
+12 verbose lock compression@* /home/chetan/.npm/58c71e60-compression.lock
+13 silly addNameRange { name: 'compression', range: '*', hasData: false }
+14 verbose mapToRegistry name compression
+15 verbose mapToRegistry uri http://registry.npmjs.org/compression
+16 verbose request on initialization, where is /compression
+17 verbose request after pass 1, where is /compression
+18 verbose request url raw /compression
+19 verbose request resolving registry [ 'http://registry.npmjs.org/', './compression' ]
+20 verbose request after pass 2, where is http://registry.npmjs.org/compression
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 22:41:25
+23 verbose request id 342de40a22009632
+24 http request GET http://registry.npmjs.org/compression
+25 http 200 http://registry.npmjs.org/compression
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"2Z3AE6PQ3AMDZHP06QZTHJID1"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '26018',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Thu, 09 Oct 2014 17:11:23 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '2939',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1412874682.872716,VS0,VE238',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'compression', range: '*', hasData: true }
+28 silly addNameRange versions [ 'compression',
+28 silly addNameRange   [ '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8',
+28 silly addNameRange     '1.0.9',
+28 silly addNameRange     '1.0.10',
+28 silly addNameRange     '1.0.11',
+28 silly addNameRange     '1.1.0' ] ]
+29 verbose addNamed [ 'compression', '1.1.0' ]
+30 verbose addNamed [ '1.1.0', '1.1.0' ]
+31 silly lockFile 9a9f6a14-compression-1-1-0 compression@1.1.0
+32 verbose lock compression@1.1.0 /home/chetan/.npm/9a9f6a14-compression-1-1-0.lock
+33 silly lockFile 4a703d5d-ompression-compression-1-1-0-tgz http://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+34 verbose lock http://registry.npmjs.org/compression/-/compression-1.1.0.tgz /home/chetan/.npm/4a703d5d-ompression-compression-1-1-0-tgz.lock
+35 verbose addRemoteTarball [ 'http://registry.npmjs.org/compression/-/compression-1.1.0.tgz',
+35 verbose addRemoteTarball   '58243eded272fc531d7c744d8e8daa7cc0b99215' ]
+36 info retry fetch attempt 1 at 22:41:26
+37 info attempt registry request try #1 at 22:41:26
+38 http fetch GET http://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+39 http fetch 200 http://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+40 silly fetchAndShaCheck shasum 58243eded272fc531d7c744d8e8daa7cc0b99215
+41 silly lockFile 4a703d5d-ompression-compression-1-1-0-tgz http://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+42 silly lockFile 4a703d5d-ompression-compression-1-1-0-tgz http://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+43 silly lockFile 9a9f6a14-compression-1-1-0 compression@1.1.0
+44 silly lockFile 9a9f6a14-compression-1-1-0 compression@1.1.0
+45 silly lockFile 58c71e60-compression compression@*
+46 silly lockFile 58c71e60-compression compression@*
+47 silly resolved [ { name: 'compression',
+47 silly resolved     description: 'Compression middleware for connect and node.js',
+47 silly resolved     version: '1.1.0',
+47 silly resolved     author:
+47 silly resolved      { name: 'Jonathan Ong',
+47 silly resolved        email: 'me@jongleberry.com',
+47 silly resolved        url: 'http://jongleberry.com' },
+47 silly resolved     contributors: [ [Object] ],
+47 silly resolved     license: 'MIT',
+47 silly resolved     repository: { type: 'git', url: 'https://github.com/expressjs/compression' },
+47 silly resolved     dependencies:
+47 silly resolved      { accepts: '~1.1.0',
+47 silly resolved        bytes: '1.0.0',
+47 silly resolved        compressible: '~2.0.0',
+47 silly resolved        debug: '~2.0.0',
+47 silly resolved        'on-headers': '~1.0.0',
+47 silly resolved        vary: '~1.0.0' },
+47 silly resolved     devDependencies:
+47 silly resolved      { istanbul: '0.3.2',
+47 silly resolved        mocha: '~1.21.3',
+47 silly resolved        supertest: '~0.13.0',
+47 silly resolved        should: '~4.0.1' },
+47 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+47 silly resolved     engines: { node: '>= 0.8.0' },
+47 silly resolved     scripts:
+47 silly resolved      { test: 'mocha --check-leaks --reporter spec --bail',
+47 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot',
+47 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec' },
+47 silly resolved     gitHead: '3b2473dfc4d81116de2dfe84061b6a5962a96062',
+47 silly resolved     bugs: { url: 'https://github.com/expressjs/compression/issues' },
+47 silly resolved     homepage: 'https://github.com/expressjs/compression',
+47 silly resolved     _id: 'compression@1.1.0',
+47 silly resolved     _shasum: '58243eded272fc531d7c744d8e8daa7cc0b99215',
+47 silly resolved     _from: 'compression@*',
+47 silly resolved     _npmVersion: '1.4.21',
+47 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+47 silly resolved     maintainers:
+47 silly resolved      [ [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '58243eded272fc531d7c744d8e8daa7cc0b99215',
+47 silly resolved        tarball: 'http://registry.npmjs.org/compression/-/compression-1.1.0.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'http://registry.npmjs.org/compression/-/compression-1.1.0.tgz' } ]
+48 info install compression@1.1.0 into /usr/lib
+49 info installOne compression@1.1.0
+50 verbose lib/node_modules/compression unbuild
+51 verbose gentlyRm vacuuming /usr/lib/node_modules/compression
+52 verbose tar unpack /home/chetan/.npm/compression/1.1.0/package.tgz
+53 silly lockFile 6b70598c-usr-lib-node-modules-compression tar:///usr/lib/node_modules/compression
+54 verbose lock tar:///usr/lib/node_modules/compression /home/chetan/.npm/6b70598c-usr-lib-node-modules-compression.lock
+55 silly lockFile 7c107f21-pm-compression-1-1-0-package-tgz tar:///home/chetan/.npm/compression/1.1.0/package.tgz
+56 verbose lock tar:///home/chetan/.npm/compression/1.1.0/package.tgz /home/chetan/.npm/7c107f21-pm-compression-1-1-0-package-tgz.lock
+57 verbose gentlyRm vacuuming /usr/lib/node_modules/compression
+58 silly gunzTarPerm modes [ '775', '664' ]
+59 verbose fstream_path /usr/lib/node_modules/compression
+60 verbose fstream_type Directory
+61 verbose fstream_class DirWriter
+62 verbose stack Error: EACCES, mkdir '/usr/lib/node_modules/compression'
+63 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 verbose fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose cwd /home/chetan/project/flipdeal
+65 error Linux 3.11.0-26-generic
+66 error argv "node" "/usr/bin/npm" "install" "compression" "-g"
+67 error node v0.10.31
+68 error npm  v2.0.2
+69 error path /usr/lib/node_modules/compression
+70 error code EACCES
+71 error errno 3
+72 error Error: EACCES, mkdir '/usr/lib/node_modules/compression'
+72 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/compression']
+72 error   errno: 3,
+72 error   code: 'EACCES',
+72 error   path: '/usr/lib/node_modules/compression',
+72 error   fstream_type: 'Directory',
+72 error   fstream_path: '/usr/lib/node_modules/compression',
+72 error   fstream_class: 'DirWriter',
+72 error   fstream_stack:
+72 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+72 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+72 error      'Object.oncomplete (fs.js:107:15)' ] }
+73 error Please try running this command again as root/Administrator.
+74 verbose exit [ 3, true ]
