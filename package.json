@@ -9,6 +9,7 @@
   "author": "CK <ck86@gmx.com>",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.1.0",
     "express": "^4.9.5",
     "node-rest-client": "^1.0.3",
     "request": "^2.44.0"

@@ -1,5 +1,5 @@
 var express = require('express');
-var compression = require('compression')
+var compression = require('compression');
 var app 	= express();
 var Client 	= require('node-rest-client').Client;
 client = new Client();
