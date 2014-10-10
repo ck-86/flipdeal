@@ -46,8 +46,6 @@ app.get('/all', function (req, res) {
 
 			res.send('<ul>'+list+'</ul>');
 		});
-
-	//res.send("Show all categories...");
 });
 
 
