@@ -1,6 +1,10 @@
 var express = require('express');
 var apiRouter = express.Router();
 var host = require('./hostConfig.js'); //Host Configuration
+
+var Client 	= require('node-rest-client').Client;
+client = new Client();
+
 var apicache = require('apicache').options({
     debug: true
 }).middleware;
