@@ -144,7 +144,9 @@ apiRouter.route('/products')
                 data.forEach( function(product) {
                     items.products.push(product.name);
                 });
-
+                res.header("Access-Control-Allow-Origin", "*");
+                res.header("Access-Control-Allow-Headers", "X-Requested-With");
+                res.header("Access-Control-Max-Age","600000");
                 res.json(items);
             });
     });
@@ -170,6 +172,9 @@ apiRouter.route('/products/:category_name')
                 };
 
                 client.get(url, args, function(data, response) {
+                    res.header("Access-Control-Allow-Origin", "*");
+                    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+                    res.header("Access-Control-Max-Age","6000");
                     res.json(data);
                 });
             });
@@ -187,6 +192,9 @@ apiRouter.route('/products/:category_name/:page_number')
             page_number = (page_number - 1) * 10;
             data = JSON.parse(data);
             result = data.productInfoList.splice(page_number, 10);
+            res.header("Access-Control-Allow-Origin", "*");
+            res.header("Access-Control-Allow-Headers", "X-Requested-With");
+            res.header("Access-Control-Max-Age","6000");
             res.json(result);
         });
     });
