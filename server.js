@@ -8,14 +8,6 @@ var apiRouter 	= require('./module/apiRouter.js');
 
 client = new Client();
 
-
-/**************************************
-* CORS Middleware
-***************************************
-* Allow all domain
-*/
-app.use(cors);
-
 /**************************************
 * Compress (Gzip)
 ***************************************
@@ -31,7 +23,14 @@ app.use(compression());
 app.use(express.static(__dirname + '/public'));
 
 /**************************************
-* Test Remote API Route
+* CORS Middleware
+***************************************
+* Allow all domain
+*/
+app.use(cors);
+
+/**************************************
+* API Route
 ***************************************
 *
 */
