@@ -140,7 +140,6 @@ apiRouter.route('/products')
                 data.forEach( function(product) {
                     items.products.push(product.name);
                 });
-
                 res.json(items);
             });
     });
