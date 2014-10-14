@@ -1,12 +1,13 @@
-var express = require('express');
+var express 	= require('express');
 var compression = require('compression');
-var app 	= express();
-var Client 	= require('node-rest-client').Client;
+var app 		= express();
+var Client 		= require('node-rest-client').Client;
+var host 		= require('./module/hostConfig.js');
+var cors 		= require('./module/cors.js');
+var apiRouter 	= require('./module/apiRouter.js');
+
 client = new Client();
 
-var host = require('./module/hostConfig.js');
-
-var apiRouter = require('./module/apiRouter.js');
 
 /**************************************
 * CORS Middleware
