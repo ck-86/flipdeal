@@ -138,11 +138,11 @@ apiRouter.route('/products')
 
         client.get(host.url + '/api/v1/directory', args,
             function(data, response) {
-                var items = {"products":[]};
+                var items = [];
                 data = JSON.parse(data);
 
                 data.forEach( function(product) {
-                    items.products.push(product.name);
+                    items.push({"name":product.name});
                 });
                 res.json(items);
             });
